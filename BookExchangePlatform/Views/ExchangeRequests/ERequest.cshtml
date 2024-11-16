@@ -1,0 +1,65 @@
+﻿@model BookExchangePlatform.Models.ViewModels.ExchangeRequestViewModel
+
+@{
+    ViewData["Title"] = "Exchange Request";
+}
+
+@section title {
+    <h3>Request Book Exchange</h3>
+    <hr />
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="ERequest" method="post" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="ExchangeRequestId" />
+                <input asp-for="BookId" type="hidden" value="@ViewData.Model.BookId" />
+                <input asp-for="RequesterId" type="hidden" value="@ViewData.Model.RequesterId" />
+                <input asp-for="OwnerId" type="hidden" value="@ViewData.Model.OwnerId" />
+                <input asp-for="Status" type="hidden" value="Pending" />
+            <div >
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Title" class="control-label" ></label>
+                <input asp-for="Title" class="form-control" readonly value="@ViewData.Model.Title" />
+            </div>
+            <div class="row">
+                <div class="form-group mb-3">
+                    <label asp-for="RequesterName" class="control-label"></label>
+                    <input asp-for="RequesterName" class="form-control" readonly value="@ViewData.Model.RequesterName" />
+                    <label asp-for="OwnerName" class="control-label"></label>
+                    <input asp-for="OwnerName" class="form-control" readonly value="@ViewData.Model.OwnerName" />
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Terms" class="control-label"></label>
+                <input asp-for="Terms" class="form-control" />
+                <span asp-validation-for="Terms" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="DeliveryMethod" class="control-label"></label>
+                <input asp-for="DeliveryMethod" class="form-control" />
+                <span asp-validation-for="DeliveryMethod" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create Request" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
