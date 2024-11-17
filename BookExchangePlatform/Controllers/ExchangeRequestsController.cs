@@ -56,6 +56,7 @@ namespace BookExchangePlatform.Controllers
                 return NotFound();
             }
             exchangeRequest.Status = "Accepted";
+            exchangeRequest.Book.IsAvailable = false;
             _context.Update(exchangeRequest);
             await _context.SaveChangesAsync();
 
