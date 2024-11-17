@@ -17,7 +17,7 @@ MS SQL Server stores and manages the application’s data.
 ## User Profile and Authentication:
 User can securely register, log in, and manage their account. So that they can access and use the book exchange platform.
 The platform allow users to register with a valid email and password and some details.
-Users are able to log out from their account.
+Users are able to log out from their accounts.
 Passwords is stored securely using encryption.
 Users are able to reset their password via a password recovery system.
 Users are able change their email id with email changing system
