@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{856A891C-5F76-4151-BCD6-BED34516AE70}|BookExchangePlatform.csproj|e:\\mtech study materials\\semester 2\\full stack applications\\assignment\\bookexchangeplatform\\bookexchangeplatform\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856A891C-5F76-4151-BCD6-BED34516AE70}|BookExchangePlatform.csproj|solutionrelative:views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856A891C-5F76-4151-BCD6-BED34516AE70}|BookExchangePlatform.csproj|e:\\mtech study materials\\semester 2\\full stack applications\\assignment\\bookexchangeplatform\\bookexchangeplatform\\controllers\\exchangerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856A891C-5F76-4151-BCD6-BED34516AE70}|BookExchangePlatform.csproj|solutionrelative:controllers\\exchangerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856A891C-5F76-4151-BCD6-BED34516AE70}|BookExchangePlatform.csproj|e:\\mtech study materials\\semester 2\\full stack applications\\assignment\\bookexchangeplatform\\bookexchangeplatform\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856A891C-5F76-4151-BCD6-BED34516AE70}|BookExchangePlatform.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExchangeRequestsController.cs",
+              "DocumentMoniker": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\Controllers\\ExchangeRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExchangeRequestsController.cs",
+              "ToolTip": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\Controllers\\ExchangeRequestsController.cs",
+              "RelativeToolTip": "Controllers\\ExchangeRequestsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:40:05.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:25:22.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Edit.cshtml",
+              "ToolTip": "E:\\MTech Study Materials\\Semester 2\\Full Stack Applications\\Assignment\\BookExchangePlatform\\BookExchangePlatform\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T16:25:03.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookExchangePlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cba8d5ee22d95b18dc4c28fa09b0a6779af86db3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8888076a53f33227eb11ae5368e205c2c6e36f0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookExchangePlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookExchangePlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

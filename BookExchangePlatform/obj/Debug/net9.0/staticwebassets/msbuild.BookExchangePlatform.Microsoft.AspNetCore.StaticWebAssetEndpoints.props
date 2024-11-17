@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookExchangePlatform.egs2eeesld.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jqKY9JhVxvIjc6GwnTCUpu7qDjXK6ZH07Y7qe3XFoTs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jqKY9JhVxvIjc6GwnTCUpu7qDjXK6ZH07Y7qe3XFoTs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 16 Nov 2024 07:59:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jqKY9JhVxvIjc6GwnTCUpu7qDjXK6ZH07Y7qe3XFoTs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 16:43:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookExchangePlatform/BookExchangePlatform.egs2eeesld.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookExchangePlatform.egs2eeesld.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"egs2eeesld"},{"Name":"integrity","Value":"sha256-jqKY9JhVxvIjc6GwnTCUpu7qDjXK6ZH07Y7qe3XFoTs="},{"Name":"label","Value":"_content/BookExchangePlatform/BookExchangePlatform.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jqKY9JhVxvIjc6GwnTCUpu7qDjXK6ZH07Y7qe3XFoTs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 16 Nov 2024 07:59:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jqKY9JhVxvIjc6GwnTCUpu7qDjXK6ZH07Y7qe3XFoTs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 16:43:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookExchangePlatform/css/site.741ij364w0.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

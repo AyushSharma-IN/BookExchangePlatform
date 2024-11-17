@@ -51,12 +51,20 @@ namespace BookExchangePlatform.Controllers
             }
 
             var exchangeRequest = await _context.ExchangeRequests.FindAsync(id);
-            if (exchangeRequest == null)
+            if (exchangeRequest == null )
+            {
+                return NotFound();
+            }
+            var book = await _context.Books.FindAsync(exchangeRequest.BookId);
+            if (book == null)
             {
                 return NotFound();
             }
             exchangeRequest.Status = "Accepted";
+            book.IsAvailable = false;
             _context.Update(exchangeRequest);
+            await _context.SaveChangesAsync();
+            _context.Update(book);
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
