@@ -15,20 +15,20 @@
 
 ## Technology Version Used
 - Visual Studio 2022
-- Dotnet - Version=9
+- Dotnet Version=9
 - Microsoft SQL Server 2022
 
 ## Nuget Packages
-Azure.Identity - Version="1.13.1"
-System.Data.SqlClient - Version="4.9.0"
-Microsoft.AspNetCore.Identity.EntityFrameworkCore - Version="9.0.0"
-Microsoft.AspNetCore.Identity.UI - Version="9.0.0"
-Microsoft.EntityFrameworkCore.Design - Version="9.0.0"
-Microsoft.EntityFrameworkCore.Sqlite - Version="9.0.0"
-Microsoft.EntityFrameworkCore.SqlServer - Version="9.0.0" 
-Microsoft.EntityFrameworkCore.Tools - Version="9.0.0"
-Microsoft.VisualStudio.Web.CodeGeneration - Version="9.0.0"
-Microsoft.VisualStudio.Web.CodeGeneration.Design - Version="9.0.0"
+- Azure.Identity : Version="1.13.1"
+- System.Data.SqlClient : Version="4.9.0"
+- Microsoft.AspNetCore.Identity.EntityFrameworkCore : Version="9.0.0"
+- Microsoft.AspNetCore.Identity.UI : Version="9.0.0"
+- Microsoft.EntityFrameworkCore.Design : Version="9.0.0"
+- Microsoft.EntityFrameworkCore.Sqlite : Version="9.0.0"
+- Microsoft.EntityFrameworkCore.SqlServer : Version="9.0.0" 
+- Microsoft.EntityFrameworkCore.Tools : Version="9.0.0"
+- Microsoft.VisualStudio.Web.CodeGeneration : Version="9.0.0"
+- Microsoft.VisualStudio.Web.CodeGeneration.Design : Version="9.0.0"
 
 
 # Features and Functionality
